@@ -15,7 +15,7 @@ bot.hears('hi', (ctx) => ctx.reply('Hey there'))
 bot.launch({
     webhook: {
       domain: 'https://d78b2e1e0cdd732903e7219ef768c0dd.m.pipedream.net',
-      port: 3000
+      port: 443
     }
   })
 bot.launch()
